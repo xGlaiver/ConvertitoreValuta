@@ -6,7 +6,6 @@ class UI {
     }
    
     insertValue(value) {
-        console.log(value.rates[this.symbol]);
         this.desiderata.textContent = value.rates[this.symbol] * this.input;
     }
 
