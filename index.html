@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <title>Convertitore Valute</title>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <h1>Convertitore online</h1>
+            <div class="converter_zone">
+                <div class="converter_section">
+                    <h2>Valuta disponibile</h2>
+
+                    <select id="base" name="country">
+                        <option value="AUD">Australia - Dollaro</option>
+                        <option value="BRL">Brasile - Real</option>
+                        <option value="BGN">Bulgaria - Lev</option>
+                        <option value="CAD">Canada - Dollaro</option>
+                        <option value="CZK">Ceca - Corona</option>
+                        <option value="CNY">Cina - Renmimbi Yuan</option>
+                        <option value="KRW">Corea del Sud - Won</option>
+                        <option value="HRK">Croazia - Kuna</option>
+                        <option value="DKK">Danimarca - Corona</option>
+                        <option value="EUR">Euro</option>
+                        <option value="PHP">Filippine - Peso</option>
+                        <option value="JPY">Giappone - Yen</option>
+                        <option value="HKD">Hong Kong - Dollaro</option>
+                        <option value="INR">India - Rupia</option>
+                        <option value="IDR">Indonesia - Rupia</option>
+                        <option value="GBP">Inghilterra - Sterlina</option>
+                        <option value="ISK">Islanda - Corona</option>
+                        <option value="ILS">Israele - Nuovo Shekel</option>
+                        <option value="TRY">Lira Turca</option>
+                        <option value="MYR">Malesia - Ringgit</option>
+                        <option value="MXN">Messico - Peso</option>
+                        <option value="NOK">Norvegia - Corona</option>
+                        <option value="NZD">Nuova Zelanda - Dollaro</option>
+                        <option value="PLN">Polonia - Zloty</option>
+                        <option value="RON">Romania - Nuova Lei</option>
+                        <option value="RUB">Russia - Rublo</option>
+                        <option value="SGD">Singapore - Dollaro</option>
+                        <option value="ZAR">Sud Africa - Rand</option>
+                        <option value="SEK">Svezia - Corona</option>
+                        <option value="CHF">Svizzera - Franco</option>
+                        <option value="THB">Thailandia - Baht</option>
+                        <option value="HUF">Ungheria -Fiorino</option>
+                        <option value="USD">USA - Dollaro</option>
+                    </select>
+                    <input type="text" name="" id="input-base" placeholder="Inserisci Quantità..">
+                </div>
+                <button>Converti</button>
+                <div class="converter_section">
+                    <h2>Valuta Desiderata</h2>
+                    <select id="symbol" name="country">
+                        <option value="AUD">Australia - Dollaro</option>
+                        <option value="BRL">Brasile - Real</option>
+                        <option value="BGN">Bulgaria - Lev</option>
+                        <option value="CAD">Canada - Dollaro</option>
+                        <option value="CZK">Ceca - Corona</option>
+                        <option value="CNY">Cina - Renmimbi Yuan</option>
+                        <option value="KRW">Corea del Sud - Won</option>
+                        <option value="HRK">Croazia - Kuna</option>
+                        <option value="DKK">Danimarca - Corona</option>
+                        <option value="EUR">Euro</option>
+                        <option value="PHP">Filippine - Peso</option>
+                        <option value="JPY">Giappone - Yen</option>
+                        <option value="HKD">Hong Kong - Dollaro</option>
+                        <option value="INR">India - Rupia</option>
+                        <option value="IDR">Indonesia - Rupia</option>
+                        <option value="GBP">Inghilterra - Sterlina</option>
+                        <option value="ISK">Islanda - Corona</option>
+                        <option value="ILS">Israele - Nuovo Shekel</option>
+                        <option value="TRY">Lira Turca</option>
+                        <option value="MYR">Malesia - Ringgit</option>
+                        <option value="MXN">Messico - Peso</option>
+                        <option value="NOK">Norvegia - Corona</option>
+                        <option value="NZD">Nuova Zelanda - Dollaro</option>
+                        <option value="PLN">Polonia - Zloty</option>
+                        <option value="RON">Romania - Nuova Lei</option>
+                        <option value="RUB">Russia - Rublo</option>
+                        <option value="SGD">Singapore - Dollaro</option>
+                        <option value="ZAR">Sud Africa - Rand</option>
+                        <option value="SEK">Svezia - Corona</option>
+                        <option value="CHF">Svizzera - Franco</option>
+                        <option value="THB">Thailandia - Baht</option>
+                        <option value="HUF">Ungheria -Fiorino</option>
+                        <option value="USD">USA - Dollaro</option>
+                    </select>
+                    <h3 class="desiderata">0</h3>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="JS/interfaccia.js"></script>
+    <script src="JS/currency.js"></script>
+    <script src="JS/app.js"></script>
+</body>
+
+</html>
